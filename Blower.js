@@ -4,11 +4,11 @@ class Blower {
         isStatic: true
       }
   
-      this.body = Bodies.rectangle(x, y, width, height, options);
+      this.body = Bodies.rectangle(x, y, w, h, options);
       this.x = x
       this.y = y
-      this.width = width
-      this.height = height
+      this.width = w
+      this.height = h
 
       World.add(world, this.body)
     }
